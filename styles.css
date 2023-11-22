@@ -87,3 +87,45 @@ p {
     text-transform: uppercase;
     box-shadow: 2px 2px 5px grey;
 }
+
+@media screen and (max-width: 900px) {
+
+    header, p {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+    }
+
+    .logo-image {
+        max-width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
+    section {
+        margin: 320px 0 0 0;
+
+    }
+
+    h1 {
+        font-size: 54px;
+        margin: 0;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .button-main {
+        display: block;
+        margin: 20px auto;
+    }
+
+}
